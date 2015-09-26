@@ -101,8 +101,8 @@
 		4B867FEA1BB651DE00D4FF3B /* HackGT2015-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4B867FEE1BB651DE00D4FF3B /* AppDelegate.h */,
-				4B867FEF1BB651DE00D4FF3B /* AppDelegate.m */,
+				4B86801F1BB6529000D4FF3B /* application */,
+				4B86801E1BB6528800D4FF3B /* parse */,
 				4B867FF11BB651DE00D4FF3B /* ViewController.h */,
 				4B867FF21BB651DE00D4FF3B /* ViewController.m */,
 				4B867FF41BB651DE00D4FF3B /* Main.storyboard */,
@@ -138,6 +138,22 @@
 				4B8680121BB651DE00D4FF3B /* Info.plist */,
 			);
 			path = "HackGT2015-iOSUITests";
+			sourceTree = "<group>";
+		};
+		4B86801E1BB6528800D4FF3B /* parse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = parse;
+			sourceTree = "<group>";
+		};
+		4B86801F1BB6529000D4FF3B /* application */ = {
+			isa = PBXGroup;
+			children = (
+				4B867FEE1BB651DE00D4FF3B /* AppDelegate.h */,
+				4B867FEF1BB651DE00D4FF3B /* AppDelegate.m */,
+			);
+			path = application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
