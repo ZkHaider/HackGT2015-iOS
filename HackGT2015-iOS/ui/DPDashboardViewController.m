@@ -6,13 +6,13 @@
 //  Copyright © 2015 ZkHaider. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DPDashboardViewController.h"
 
-@interface ViewController ()
+@interface DPDashboardViewController ()
 
 @end
 
-@implementation ViewController
+@implementation DPDashboardViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

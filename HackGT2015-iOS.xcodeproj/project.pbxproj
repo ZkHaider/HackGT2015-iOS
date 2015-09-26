@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B867FED1BB651DE00D4FF3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B867FEC1BB651DE00D4FF3B /* main.m */; };
 		4B867FF01BB651DE00D4FF3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B867FEF1BB651DE00D4FF3B /* AppDelegate.m */; };
-		4B867FF31BB651DE00D4FF3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B867FF21BB651DE00D4FF3B /* ViewController.m */; };
+		4B867FF31BB651DE00D4FF3B /* DPDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B867FF21BB651DE00D4FF3B /* DPDashboardViewController.m */; };
 		4B867FF61BB651DE00D4FF3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B867FF41BB651DE00D4FF3B /* Main.storyboard */; };
 		4B867FF81BB651DE00D4FF3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B867FF71BB651DE00D4FF3B /* Assets.xcassets */; };
 		4B867FFB1BB651DE00D4FF3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B867FF91BB651DE00D4FF3B /* LaunchScreen.storyboard */; };
@@ -60,8 +60,8 @@
 		4B867FEC1BB651DE00D4FF3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B867FEE1BB651DE00D4FF3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B867FEF1BB651DE00D4FF3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B867FF11BB651DE00D4FF3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B867FF21BB651DE00D4FF3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B867FF11BB651DE00D4FF3B /* DPDashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPDashboardViewController.h; sourceTree = "<group>"; };
+		4B867FF21BB651DE00D4FF3B /* DPDashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPDashboardViewController.m; sourceTree = "<group>"; };
 		4B867FF51BB651DE00D4FF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B867FF71BB651DE00D4FF3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B867FFA1BB651DE00D4FF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -255,8 +255,8 @@
 		4B8680281BB6545900D4FF3B /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				4B867FF11BB651DE00D4FF3B /* ViewController.h */,
-				4B867FF21BB651DE00D4FF3B /* ViewController.m */,
+				4B867FF11BB651DE00D4FF3B /* DPDashboardViewController.h */,
+				4B867FF21BB651DE00D4FF3B /* DPDashboardViewController.m */,
 				4B8680291BB654E600D4FF3B /* DPLoginViewController.h */,
 				4B86802A1BB654E600D4FF3B /* DPLoginViewController.m */,
 				4B8680441BB6569F00D4FF3B /* DPSignUpViewController.h */,
@@ -437,7 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B8680461BB6569F00D4FF3B /* DPSignUpViewController.m in Sources */,
-				4B867FF31BB651DE00D4FF3B /* ViewController.m in Sources */,
+				4B867FF31BB651DE00D4FF3B /* DPDashboardViewController.m in Sources */,
 				4B867FF01BB651DE00D4FF3B /* AppDelegate.m in Sources */,
 				4B86802B1BB654E600D4FF3B /* DPLoginViewController.m in Sources */,
 				4B867FED1BB651DE00D4FF3B /* main.m in Sources */,
