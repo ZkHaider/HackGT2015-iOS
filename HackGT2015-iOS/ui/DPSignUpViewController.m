@@ -20,6 +20,8 @@
     
     
     UILabel *label = [[UILabel alloc] init];
+    UIFont *font = label.font;
+    label.font = [font fontWithSize:31];
     label.text = @"Drop";
     [label sizeToFit];
     self.signUpView.logo = label;
