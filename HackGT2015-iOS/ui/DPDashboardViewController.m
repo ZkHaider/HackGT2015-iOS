@@ -13,11 +13,13 @@
 #import "MPSkewedCell.h"
 #import "MPSkewedParallaxLayout.h"
 #import "DPTreasureCell.h"
+#import "DPTreasurePresenter.h"
 
 static NSString *kCellId = @"memoryCellId";
 
 @interface DPDashboardViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
+@property (nonatomic, strong) DPTreasurePresenter *treasurePresenter;
 @property (nonatomic, strong) UICollectionView *collectionView;
 
 @end
@@ -118,11 +120,21 @@ static NSString *kCellId = @"memoryCellId";
         // Present login view controller
         [self presentViewController:loginViewController animated:YES completion:nil];
     } else {
-        NSLog(@"%@", [PFUser currentUser]);
+        // Go ahead and init the presenter
+        [self setupTreasurePresenter];
     }
 }
 
-#pragma mark - UICollectionViewDataSource
+# pragma mark - setupTreasurePresenter
+
+- (void)setupTreasurePresenter {
+    if (!_treasurePresenter) {
+        _treasurePresenter = [[DPTreasurePresenter alloc] init];
+        [_treasurePresenter loadNearbyTreasures];
+    }
+}
+
+# pragma mark - UICollectionViewDataSource
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return 30; // random
@@ -136,10 +148,10 @@ static NSString *kCellId = @"memoryCellId";
     return cell;
 }
 
-#pragma mark - UICollectionViewDelegate
+# pragma mark - UICollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    DPTreasureCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
+    DPTreasureCell *cell = (DPTreasureCell *) [collectionView cellForItemAtIndexPath:indexPath];
     
 }
 

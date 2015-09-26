@@ -7,7 +7,10 @@
 //
 
 #import "MPSkewedCell.h"
+#import "DPTreasure.h"
 
 @interface DPTreasureCell : MPSkewedCell
+
+@property (nonatomic, strong) DPTreasure *treasure;
 
 @end

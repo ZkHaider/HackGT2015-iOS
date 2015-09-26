@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ITreasureInteractor.h"
 
 @interface DPTreasurePresenter : NSObject
+
+@property (nonatomic, strong) id<ITreasureInteractor> treasureInfo;
+
+- (id)initWithInteractor:(id<ITreasureInteractor>)interactor;
+- (void)registerOnBus;
+- (void)unregisterOnBus;
+- (void)loadNearbyTreasures;
 
 @end

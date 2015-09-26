@@ -41,6 +41,15 @@
 		4B8680631BB6948500D4FF3B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680621BB6948500D4FF3B /* FBSDKShareKit.framework */; settings = {ASSET_TAGS = (); }; };
 		4B8680671BB6996400D4FF3B /* DPTreasureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680661BB6996400D4FF3B /* DPTreasureCell.m */; settings = {ASSET_TAGS = (); }; };
 		4B8680711BB69B5100D4FF3B /* DPTreasurePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680701BB69B5100D4FF3B /* DPTreasurePresenter.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680741BB69BE500D4FF3B /* DPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680731BB69BE500D4FF3B /* DPClient.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680771BB69C9200D4FF3B /* DPTreasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680761BB69C9200D4FF3B /* DPTreasure.m */; settings = {ASSET_TAGS = (); }; };
+		4B86807A1BB69E0E00D4FF3B /* DPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680791BB69E0E00D4FF3B /* DPLocation.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680811BB6A0F500D4FF3B /* Tolo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680801BB6A0F500D4FF3B /* Tolo.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680851BB6A16600D4FF3B /* DPBaseNotificationRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680841BB6A16600D4FF3B /* DPBaseNotificationRegistry.m */; settings = {ASSET_TAGS = (); }; };
+		4B86808C1BB6A2A800D4FF3B /* DPBaseSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B86808B1BB6A2A800D4FF3B /* DPBaseSubscriber.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680911BB6A42400D4FF3B /* DPLoadTreasures.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680901BB6A42400D4FF3B /* DPLoadTreasures.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680941BB6A42F00D4FF3B /* DPLoadedTreasures.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680931BB6A42F00D4FF3B /* DPLoadedTreasures.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680971BB6A45400D4FF3B /* DPTreasureSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680961BB6A45400D4FF3B /* DPTreasureSubscriber.m */; settings = {ASSET_TAGS = (); }; };
 		9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1511421A1F72493F795525AA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +123,26 @@
 		4B8680661BB6996400D4FF3B /* DPTreasureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasureCell.m; sourceTree = "<group>"; };
 		4B86806F1BB69B5100D4FF3B /* DPTreasurePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasurePresenter.h; sourceTree = "<group>"; };
 		4B8680701BB69B5100D4FF3B /* DPTreasurePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasurePresenter.m; sourceTree = "<group>"; };
+		4B8680721BB69BE500D4FF3B /* DPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPClient.h; sourceTree = "<group>"; };
+		4B8680731BB69BE500D4FF3B /* DPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPClient.m; sourceTree = "<group>"; };
+		4B8680751BB69C9200D4FF3B /* DPTreasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasure.h; sourceTree = "<group>"; };
+		4B8680761BB69C9200D4FF3B /* DPTreasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasure.m; sourceTree = "<group>"; };
+		4B8680781BB69E0E00D4FF3B /* DPLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLocation.h; sourceTree = "<group>"; };
+		4B8680791BB69E0E00D4FF3B /* DPLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLocation.m; sourceTree = "<group>"; };
+		4B86807F1BB6A0F500D4FF3B /* Tolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tolo.h; sourceTree = "<group>"; };
+		4B8680801BB6A0F500D4FF3B /* Tolo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tolo.m; sourceTree = "<group>"; };
+		4B8680831BB6A16600D4FF3B /* DPBaseNotificationRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBaseNotificationRegistry.h; sourceTree = "<group>"; };
+		4B8680841BB6A16600D4FF3B /* DPBaseNotificationRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBaseNotificationRegistry.m; sourceTree = "<group>"; };
+		4B8680891BB6A23F00D4FF3B /* DPNotificationSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPNotificationSubscriber.h; sourceTree = "<group>"; };
+		4B86808A1BB6A2A800D4FF3B /* DPBaseSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBaseSubscriber.h; sourceTree = "<group>"; };
+		4B86808B1BB6A2A800D4FF3B /* DPBaseSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBaseSubscriber.m; sourceTree = "<group>"; };
+		4B86808D1BB6A3A100D4FF3B /* ITreasureInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITreasureInteractor.h; sourceTree = "<group>"; };
+		4B86808F1BB6A42400D4FF3B /* DPLoadTreasures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLoadTreasures.h; sourceTree = "<group>"; };
+		4B8680901BB6A42400D4FF3B /* DPLoadTreasures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLoadTreasures.m; sourceTree = "<group>"; };
+		4B8680921BB6A42F00D4FF3B /* DPLoadedTreasures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLoadedTreasures.h; sourceTree = "<group>"; };
+		4B8680931BB6A42F00D4FF3B /* DPLoadedTreasures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLoadedTreasures.m; sourceTree = "<group>"; };
+		4B8680951BB6A45400D4FF3B /* DPTreasureSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasureSubscriber.h; sourceTree = "<group>"; };
+		4B8680961BB6A45400D4FF3B /* DPTreasureSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasureSubscriber.m; sourceTree = "<group>"; };
 		787BA12EAA8B17D0DF2BA31A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C05914DE9225BAF004FE7C70 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -233,6 +262,8 @@
 			children = (
 				4B8680681BB69A2C00D4FF3B /* api */,
 				4B86801F1BB6529000D4FF3B /* application */,
+				4B8680821BB6A12600D4FF3B /* base */,
+				4B86807B1BB6A0A900D4FF3B /* bus */,
 				4B86806A1BB69ACA00D4FF3B /* mvp */,
 				4B86801E1BB6528800D4FF3B /* parse */,
 				4B8680281BB6545900D4FF3B /* ui */,
@@ -324,6 +355,8 @@
 			isa = PBXGroup;
 			children = (
 				4B8680691BB69A3F00D4FF3B /* entities */,
+				4B8680721BB69BE500D4FF3B /* DPClient.h */,
+				4B8680731BB69BE500D4FF3B /* DPClient.m */,
 			);
 			path = api;
 			sourceTree = "<group>";
@@ -331,6 +364,10 @@
 		4B8680691BB69A3F00D4FF3B /* entities */ = {
 			isa = PBXGroup;
 			children = (
+				4B8680751BB69C9200D4FF3B /* DPTreasure.h */,
+				4B8680761BB69C9200D4FF3B /* DPTreasure.m */,
+				4B8680781BB69E0E00D4FF3B /* DPLocation.h */,
+				4B8680791BB69E0E00D4FF3B /* DPLocation.m */,
 			);
 			path = entities;
 			sourceTree = "<group>";
@@ -358,6 +395,7 @@
 		4B86806C1BB69AEF00D4FF3B /* interactors */ = {
 			isa = PBXGroup;
 			children = (
+				4B86808D1BB6A3A100D4FF3B /* ITreasureInteractor.h */,
 			);
 			path = interactors;
 			sourceTree = "<group>";
@@ -365,6 +403,8 @@
 		4B86806D1BB69AF800D4FF3B /* subscribers */ = {
 			isa = PBXGroup;
 			children = (
+				4B8680951BB6A45400D4FF3B /* DPTreasureSubscriber.h */,
+				4B8680961BB6A45400D4FF3B /* DPTreasureSubscriber.m */,
 			);
 			path = subscribers;
 			sourceTree = "<group>";
@@ -374,6 +414,39 @@
 			children = (
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		4B86807B1BB6A0A900D4FF3B /* bus */ = {
+			isa = PBXGroup;
+			children = (
+				4B86808E1BB6A40B00D4FF3B /* events */,
+				4B86807F1BB6A0F500D4FF3B /* Tolo.h */,
+				4B8680801BB6A0F500D4FF3B /* Tolo.m */,
+			);
+			path = bus;
+			sourceTree = "<group>";
+		};
+		4B8680821BB6A12600D4FF3B /* base */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680831BB6A16600D4FF3B /* DPBaseNotificationRegistry.h */,
+				4B8680841BB6A16600D4FF3B /* DPBaseNotificationRegistry.m */,
+				4B8680891BB6A23F00D4FF3B /* DPNotificationSubscriber.h */,
+				4B86808A1BB6A2A800D4FF3B /* DPBaseSubscriber.h */,
+				4B86808B1BB6A2A800D4FF3B /* DPBaseSubscriber.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		4B86808E1BB6A40B00D4FF3B /* events */ = {
+			isa = PBXGroup;
+			children = (
+				4B86808F1BB6A42400D4FF3B /* DPLoadTreasures.h */,
+				4B8680901BB6A42400D4FF3B /* DPLoadTreasures.m */,
+				4B8680921BB6A42F00D4FF3B /* DPLoadedTreasures.h */,
+				4B8680931BB6A42F00D4FF3B /* DPLoadedTreasures.m */,
+			);
+			path = events;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,10 +621,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B8680671BB6996400D4FF3B /* DPTreasureCell.m in Sources */,
+				4B86807A1BB69E0E00D4FF3B /* DPLocation.m in Sources */,
+				4B86808C1BB6A2A800D4FF3B /* DPBaseSubscriber.m in Sources */,
+				4B8680971BB6A45400D4FF3B /* DPTreasureSubscriber.m in Sources */,
 				4B8680461BB6569F00D4FF3B /* DPSignUpViewController.m in Sources */,
+				4B8680811BB6A0F500D4FF3B /* Tolo.m in Sources */,
 				4B867FF31BB651DE00D4FF3B /* DPDashboardViewController.m in Sources */,
 				4B867FF01BB651DE00D4FF3B /* AppDelegate.m in Sources */,
+				4B8680771BB69C9200D4FF3B /* DPTreasure.m in Sources */,
 				4B86802B1BB654E600D4FF3B /* DPLoginViewController.m in Sources */,
+				4B8680941BB6A42F00D4FF3B /* DPLoadedTreasures.m in Sources */,
+				4B8680741BB69BE500D4FF3B /* DPClient.m in Sources */,
+				4B8680911BB6A42400D4FF3B /* DPLoadTreasures.m in Sources */,
+				4B8680851BB6A16600D4FF3B /* DPBaseNotificationRegistry.m in Sources */,
 				4B8680611BB68D2E00D4FF3B /* DPImageUtilities.m in Sources */,
 				4B867FED1BB651DE00D4FF3B /* main.m in Sources */,
 				4B8680711BB69B5100D4FF3B /* DPTreasurePresenter.m in Sources */,
