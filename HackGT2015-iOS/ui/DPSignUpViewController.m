@@ -18,10 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor blueColor];
     
     UILabel *label = [[UILabel alloc] init];
-    label.text = @"All Custom!";
+    label.text = @"Drop";
     [label sizeToFit];
     self.signUpView.logo = label;
 }

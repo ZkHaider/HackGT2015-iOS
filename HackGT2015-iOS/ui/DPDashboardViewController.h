@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ParseUI/ParseUI.h>
 
-@interface DPDashboardViewController : UIViewController
+@interface DPDashboardViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 
 
 @end

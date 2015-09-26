@@ -20,7 +20,9 @@
     
     UILabel *label = [[UILabel alloc] init];
     label.textColor = [UIColor blackColor];
-    label.text = @"Drop!";
+    UIFont *font = label.font;
+    label.font = [font fontWithSize:40];
+    label.text = @"Drop";
     [label sizeToFit];
     self.logInView.logo = label;
 }
