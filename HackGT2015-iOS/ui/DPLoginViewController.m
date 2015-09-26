@@ -17,14 +17,26 @@
 }
 
 - (void)setupUI {
+    self.logInView.layer.contents = (id)[UIImage imageNamed:@"drop_backdrop"].CGImage;
     
-    UILabel *label = [[UILabel alloc] init];
-    label.textColor = [UIColor blackColor];
-    UIFont *font = label.font;
-    label.font = [font fontWithSize:31];
-    label.text = @"Drop";
-    [label sizeToFit];
-    self.logInView.logo = label;
+//    UILabel *label = [[UILabel alloc] init];
+//    label.textColor = [UIColor whiteColor];
+//    UIFont *font = label.font;
+//    label.font = [font fontWithSize:40];
+//    label.text = @"Drop";
+//    label.textAlignment = NSTextAlignmentCenter;
+//    [label sizeToFit];
+//    self.logInView.logo = label;
+}
+
+# pragma mark - LoginViewController Delegates
+
+- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user {
+    NSLog(@"%@", user);
+}
+
+- (void)logInViewController:(PFLogInViewController *)logInController didFailToLogInWithError:(NSError *)error {
+    NSLog(@"%@", error);
 }
 
 @end

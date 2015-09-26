@@ -29,6 +29,10 @@
     // Init facebook login utils
     [PFFacebookUtils initializeFacebookWithApplicationLaunchOptions:launchOptions];
     
+    // Configure delegate
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                    didFinishLaunchingWithOptions:launchOptions];
+    
     return YES;
 }
 

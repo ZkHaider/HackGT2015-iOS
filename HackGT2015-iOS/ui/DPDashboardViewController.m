@@ -84,6 +84,12 @@ static NSString *kCellId = @"memoryCellId";
         DPSignUpViewController *signUpViewController = [[DPSignUpViewController alloc] init];
         [signUpViewController setDelegate:self];
         
+        // Set facebook permissions
+        [loginViewController setFacebookPermissions:[NSArray arrayWithObjects:@"user_friends", nil]];
+        
+        // Set the login view controller fields
+        [loginViewController setFields:PFLogInFieldsFacebook | PFLogInFieldsSignUpButton | PFLogInFieldsDismissButton];
+        
         // Assign our sign up controller to be displayed from login view controller
         [loginViewController setSignUpController:signUpViewController];
         
