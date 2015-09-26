@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MPSkewed.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Mantle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Overcoat.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>942B10AEF0395C53006CA2D6BBB79EDC</key>
+		<key>28FE22B8E3AA553CE467B297C8AE6F26</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E79A16BE9A0E2AD765A91EE89531E8F6</key>
+		<key>37FAFF3397BEE06492F287C272B81E95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A50CCF600FD5ADA09F9D0D8B3BDF13A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D46F105BD323D169B50B424F2E673248</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0A51C7200A0595365A08360D3B4DEF2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <ParseUI/ParseUI.h>
+#import "ITreasureInteractor.h"
 
-@interface DPDashboardViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
+@interface DPDashboardViewController : UIViewController <ITreasureInteractor, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 
 
 @end

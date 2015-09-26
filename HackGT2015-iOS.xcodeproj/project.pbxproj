@@ -34,6 +34,23 @@
 		4B8680431BB655EE00D4FF3B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */; };
 		4B8680461BB6569F00D4FF3B /* DPSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4B8680481BB659FA00D4FF3B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4B8680471BB659FA00D4FF3B /* .gitignore */; settings = {ASSET_TAGS = (); }; };
+		4B8680581BB6805800D4FF3B /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680571BB6805800D4FF3B /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
+		4B86805B1BB680BF00D4FF3B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680591BB680BF00D4FF3B /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		4B86805C1BB680BF00D4FF3B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86805A1BB680BF00D4FF3B /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		4B8680611BB68D2E00D4FF3B /* DPImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680601BB68D2E00D4FF3B /* DPImageUtilities.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680631BB6948500D4FF3B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680621BB6948500D4FF3B /* FBSDKShareKit.framework */; settings = {ASSET_TAGS = (); }; };
+		4B8680671BB6996400D4FF3B /* DPTreasureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680661BB6996400D4FF3B /* DPTreasureCell.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680711BB69B5100D4FF3B /* DPTreasurePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680701BB69B5100D4FF3B /* DPTreasurePresenter.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680741BB69BE500D4FF3B /* DPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680731BB69BE500D4FF3B /* DPClient.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680771BB69C9200D4FF3B /* DPTreasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680761BB69C9200D4FF3B /* DPTreasure.m */; settings = {ASSET_TAGS = (); }; };
+		4B86807A1BB69E0E00D4FF3B /* DPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680791BB69E0E00D4FF3B /* DPLocation.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680811BB6A0F500D4FF3B /* Tolo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680801BB6A0F500D4FF3B /* Tolo.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680851BB6A16600D4FF3B /* DPBaseNotificationRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680841BB6A16600D4FF3B /* DPBaseNotificationRegistry.m */; settings = {ASSET_TAGS = (); }; };
+		4B86808C1BB6A2A800D4FF3B /* DPBaseSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B86808B1BB6A2A800D4FF3B /* DPBaseSubscriber.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680911BB6A42400D4FF3B /* DPLoadTreasures.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680901BB6A42400D4FF3B /* DPLoadTreasures.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680941BB6A42F00D4FF3B /* DPLoadedTreasures.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680931BB6A42F00D4FF3B /* DPLoadedTreasures.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680971BB6A45400D4FF3B /* DPTreasureSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680961BB6A45400D4FF3B /* DPTreasureSubscriber.m */; settings = {ASSET_TAGS = (); }; };
+		4B86809A1BB6A71A00D4FF3B /* DPTreasureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680991BB6A71A00D4FF3B /* DPTreasureController.m */; settings = {ASSET_TAGS = (); }; };
 		9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1511421A1F72493F795525AA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +110,42 @@
 		4B8680441BB6569F00D4FF3B /* DPSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSignUpViewController.h; sourceTree = "<group>"; };
 		4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSignUpViewController.m; sourceTree = "<group>"; };
 		4B8680471BB659FA00D4FF3B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4B86804B1BB673BD00D4FF3B /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
+		4B86804C1BB673BD00D4FF3B /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
+		4B86804F1BB6747800D4FF3B /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
+		4B8680501BB6747800D4FF3B /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
+		4B8680571BB6805800D4FF3B /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		4B8680591BB680BF00D4FF3B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4B86805A1BB680BF00D4FF3B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4B86805F1BB68D2E00D4FF3B /* DPImageUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageUtilities.h; sourceTree = "<group>"; };
+		4B8680601BB68D2E00D4FF3B /* DPImageUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageUtilities.m; sourceTree = "<group>"; };
+		4B8680621BB6948500D4FF3B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		4B8680651BB6996400D4FF3B /* DPTreasureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasureCell.h; sourceTree = "<group>"; };
+		4B8680661BB6996400D4FF3B /* DPTreasureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasureCell.m; sourceTree = "<group>"; };
+		4B86806F1BB69B5100D4FF3B /* DPTreasurePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasurePresenter.h; sourceTree = "<group>"; };
+		4B8680701BB69B5100D4FF3B /* DPTreasurePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasurePresenter.m; sourceTree = "<group>"; };
+		4B8680721BB69BE500D4FF3B /* DPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPClient.h; sourceTree = "<group>"; };
+		4B8680731BB69BE500D4FF3B /* DPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPClient.m; sourceTree = "<group>"; };
+		4B8680751BB69C9200D4FF3B /* DPTreasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasure.h; sourceTree = "<group>"; };
+		4B8680761BB69C9200D4FF3B /* DPTreasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasure.m; sourceTree = "<group>"; };
+		4B8680781BB69E0E00D4FF3B /* DPLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLocation.h; sourceTree = "<group>"; };
+		4B8680791BB69E0E00D4FF3B /* DPLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLocation.m; sourceTree = "<group>"; };
+		4B86807F1BB6A0F500D4FF3B /* Tolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tolo.h; sourceTree = "<group>"; };
+		4B8680801BB6A0F500D4FF3B /* Tolo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tolo.m; sourceTree = "<group>"; };
+		4B8680831BB6A16600D4FF3B /* DPBaseNotificationRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBaseNotificationRegistry.h; sourceTree = "<group>"; };
+		4B8680841BB6A16600D4FF3B /* DPBaseNotificationRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBaseNotificationRegistry.m; sourceTree = "<group>"; };
+		4B8680891BB6A23F00D4FF3B /* DPNotificationSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPNotificationSubscriber.h; sourceTree = "<group>"; };
+		4B86808A1BB6A2A800D4FF3B /* DPBaseSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBaseSubscriber.h; sourceTree = "<group>"; };
+		4B86808B1BB6A2A800D4FF3B /* DPBaseSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBaseSubscriber.m; sourceTree = "<group>"; };
+		4B86808D1BB6A3A100D4FF3B /* ITreasureInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITreasureInteractor.h; sourceTree = "<group>"; };
+		4B86808F1BB6A42400D4FF3B /* DPLoadTreasures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLoadTreasures.h; sourceTree = "<group>"; };
+		4B8680901BB6A42400D4FF3B /* DPLoadTreasures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLoadTreasures.m; sourceTree = "<group>"; };
+		4B8680921BB6A42F00D4FF3B /* DPLoadedTreasures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLoadedTreasures.h; sourceTree = "<group>"; };
+		4B8680931BB6A42F00D4FF3B /* DPLoadedTreasures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLoadedTreasures.m; sourceTree = "<group>"; };
+		4B8680951BB6A45400D4FF3B /* DPTreasureSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasureSubscriber.h; sourceTree = "<group>"; };
+		4B8680961BB6A45400D4FF3B /* DPTreasureSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasureSubscriber.m; sourceTree = "<group>"; };
+		4B8680981BB6A71A00D4FF3B /* DPTreasureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasureController.h; sourceTree = "<group>"; };
+		4B8680991BB6A71A00D4FF3B /* DPTreasureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasureController.m; sourceTree = "<group>"; };
 		787BA12EAA8B17D0DF2BA31A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C05914DE9225BAF004FE7C70 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,18 +157,22 @@
 			files = (
 				4B8680431BB655EE00D4FF3B /* libsqlite3.tbd in Frameworks */,
 				4B8680411BB655E800D4FF3B /* libz.tbd in Frameworks */,
+				4B86805C1BB680BF00D4FF3B /* FBSDKLoginKit.framework in Frameworks */,
 				4B86803F1BB655E200D4FF3B /* SystemConfiguration.framework in Frameworks */,
 				4B86803D1BB655DC00D4FF3B /* StoreKit.framework in Frameworks */,
 				4B86803B1BB655D600D4FF3B /* Social.framework in Frameworks */,
 				4B8680391BB655CF00D4FF3B /* Security.framework in Frameworks */,
 				4B8680371BB655CA00D4FF3B /* QuartzCore.framework in Frameworks */,
 				4B8680351BB655C400D4FF3B /* CoreLocation.framework in Frameworks */,
+				4B86805B1BB680BF00D4FF3B /* FBSDKCoreKit.framework in Frameworks */,
 				4B8680331BB655BE00D4FF3B /* CoreGraphics.framework in Frameworks */,
 				4B8680311BB655B700D4FF3B /* CFNetwork.framework in Frameworks */,
 				4B86802F1BB655B000D4FF3B /* AudioToolbox.framework in Frameworks */,
 				4B86802D1BB655AB00D4FF3B /* Accounts.framework in Frameworks */,
 				4B8680251BB6533400D4FF3B /* ParseUI.framework in Frameworks */,
 				4B8680241BB6533400D4FF3B /* Parse.framework in Frameworks */,
+				4B8680581BB6805800D4FF3B /* ParseFacebookUtilsV4.framework in Frameworks */,
+				4B8680631BB6948500D4FF3B /* FBSDKShareKit.framework in Frameworks */,
 				4B8680271BB6534100D4FF3B /* MapKit.framework in Frameworks */,
 				4B8680231BB6533400D4FF3B /* Bolts.framework in Frameworks */,
 				9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */,
@@ -151,6 +208,10 @@
 		45AAC47A9E8EA5C0C4AF18F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B86804F1BB6747800D4FF3B /* libFBSDKCoreKit.a */,
+				4B8680501BB6747800D4FF3B /* libFBSDKLoginKit.a */,
+				4B86804B1BB673BD00D4FF3B /* libFBSDKCoreKit.a */,
+				4B86804C1BB673BD00D4FF3B /* libFBSDKLoginKit.a */,
 				1511421A1F72493F795525AA /* libPods.a */,
 			);
 			name = Frameworks;
@@ -162,6 +223,10 @@
 				4B8680471BB659FA00D4FF3B /* .gitignore */,
 				4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */,
 				4B8680401BB655E800D4FF3B /* libz.tbd */,
+				4B8680571BB6805800D4FF3B /* ParseFacebookUtilsV4.framework */,
+				4B8680621BB6948500D4FF3B /* FBSDKShareKit.framework */,
+				4B8680591BB680BF00D4FF3B /* FBSDKCoreKit.framework */,
+				4B86805A1BB680BF00D4FF3B /* FBSDKLoginKit.framework */,
 				4B86803E1BB655E200D4FF3B /* SystemConfiguration.framework */,
 				4B86803C1BB655DC00D4FF3B /* StoreKit.framework */,
 				4B86803A1BB655D600D4FF3B /* Social.framework */,
@@ -198,7 +263,11 @@
 		4B867FEA1BB651DE00D4FF3B /* HackGT2015-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4B8680681BB69A2C00D4FF3B /* api */,
 				4B86801F1BB6529000D4FF3B /* application */,
+				4B8680821BB6A12600D4FF3B /* base */,
+				4B86807B1BB6A0A900D4FF3B /* bus */,
+				4B86806A1BB69ACA00D4FF3B /* mvp */,
 				4B86801E1BB6528800D4FF3B /* parse */,
 				4B8680281BB6545900D4FF3B /* ui */,
 				4B867FF41BB651DE00D4FF3B /* Main.storyboard */,
@@ -255,6 +324,8 @@
 		4B8680281BB6545900D4FF3B /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				4B8680641BB6994500D4FF3B /* cells */,
+				4B86805E1BB68CFF00D4FF3B /* utils */,
 				4B867FF11BB651DE00D4FF3B /* DPDashboardViewController.h */,
 				4B867FF21BB651DE00D4FF3B /* DPDashboardViewController.m */,
 				4B8680291BB654E600D4FF3B /* DPLoginViewController.h */,
@@ -263,6 +334,124 @@
 				4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */,
 			);
 			path = ui;
+			sourceTree = "<group>";
+		};
+		4B86805E1BB68CFF00D4FF3B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4B86805F1BB68D2E00D4FF3B /* DPImageUtilities.h */,
+				4B8680601BB68D2E00D4FF3B /* DPImageUtilities.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		4B8680641BB6994500D4FF3B /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680651BB6996400D4FF3B /* DPTreasureCell.h */,
+				4B8680661BB6996400D4FF3B /* DPTreasureCell.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		4B8680681BB69A2C00D4FF3B /* api */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680691BB69A3F00D4FF3B /* entities */,
+				4B8680721BB69BE500D4FF3B /* DPClient.h */,
+				4B8680731BB69BE500D4FF3B /* DPClient.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		4B8680691BB69A3F00D4FF3B /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680751BB69C9200D4FF3B /* DPTreasure.h */,
+				4B8680761BB69C9200D4FF3B /* DPTreasure.m */,
+				4B8680781BB69E0E00D4FF3B /* DPLocation.h */,
+				4B8680791BB69E0E00D4FF3B /* DPLocation.m */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		4B86806A1BB69ACA00D4FF3B /* mvp */ = {
+			isa = PBXGroup;
+			children = (
+				4B86806E1BB69B0200D4FF3B /* controllers */,
+				4B86806C1BB69AEF00D4FF3B /* interactors */,
+				4B86806B1BB69AE800D4FF3B /* presenters */,
+				4B86806D1BB69AF800D4FF3B /* subscribers */,
+			);
+			path = mvp;
+			sourceTree = "<group>";
+		};
+		4B86806B1BB69AE800D4FF3B /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				4B86806F1BB69B5100D4FF3B /* DPTreasurePresenter.h */,
+				4B8680701BB69B5100D4FF3B /* DPTreasurePresenter.m */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		4B86806C1BB69AEF00D4FF3B /* interactors */ = {
+			isa = PBXGroup;
+			children = (
+				4B86808D1BB6A3A100D4FF3B /* ITreasureInteractor.h */,
+			);
+			path = interactors;
+			sourceTree = "<group>";
+		};
+		4B86806D1BB69AF800D4FF3B /* subscribers */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680951BB6A45400D4FF3B /* DPTreasureSubscriber.h */,
+				4B8680961BB6A45400D4FF3B /* DPTreasureSubscriber.m */,
+			);
+			path = subscribers;
+			sourceTree = "<group>";
+		};
+		4B86806E1BB69B0200D4FF3B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680981BB6A71A00D4FF3B /* DPTreasureController.h */,
+				4B8680991BB6A71A00D4FF3B /* DPTreasureController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		4B86807B1BB6A0A900D4FF3B /* bus */ = {
+			isa = PBXGroup;
+			children = (
+				4B86808E1BB6A40B00D4FF3B /* events */,
+				4B86807F1BB6A0F500D4FF3B /* Tolo.h */,
+				4B8680801BB6A0F500D4FF3B /* Tolo.m */,
+			);
+			path = bus;
+			sourceTree = "<group>";
+		};
+		4B8680821BB6A12600D4FF3B /* base */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680831BB6A16600D4FF3B /* DPBaseNotificationRegistry.h */,
+				4B8680841BB6A16600D4FF3B /* DPBaseNotificationRegistry.m */,
+				4B8680891BB6A23F00D4FF3B /* DPNotificationSubscriber.h */,
+				4B86808A1BB6A2A800D4FF3B /* DPBaseSubscriber.h */,
+				4B86808B1BB6A2A800D4FF3B /* DPBaseSubscriber.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		4B86808E1BB6A40B00D4FF3B /* events */ = {
+			isa = PBXGroup;
+			children = (
+				4B86808F1BB6A42400D4FF3B /* DPLoadTreasures.h */,
+				4B8680901BB6A42400D4FF3B /* DPLoadTreasures.m */,
+				4B8680921BB6A42F00D4FF3B /* DPLoadedTreasures.h */,
+				4B8680931BB6A42F00D4FF3B /* DPLoadedTreasures.m */,
+			);
+			path = events;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,11 +625,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8680671BB6996400D4FF3B /* DPTreasureCell.m in Sources */,
+				4B86807A1BB69E0E00D4FF3B /* DPLocation.m in Sources */,
+				4B86808C1BB6A2A800D4FF3B /* DPBaseSubscriber.m in Sources */,
+				4B8680971BB6A45400D4FF3B /* DPTreasureSubscriber.m in Sources */,
 				4B8680461BB6569F00D4FF3B /* DPSignUpViewController.m in Sources */,
+				4B8680811BB6A0F500D4FF3B /* Tolo.m in Sources */,
 				4B867FF31BB651DE00D4FF3B /* DPDashboardViewController.m in Sources */,
 				4B867FF01BB651DE00D4FF3B /* AppDelegate.m in Sources */,
+				4B8680771BB69C9200D4FF3B /* DPTreasure.m in Sources */,
 				4B86802B1BB654E600D4FF3B /* DPLoginViewController.m in Sources */,
+				4B8680941BB6A42F00D4FF3B /* DPLoadedTreasures.m in Sources */,
+				4B8680741BB69BE500D4FF3B /* DPClient.m in Sources */,
+				4B8680911BB6A42400D4FF3B /* DPLoadTreasures.m in Sources */,
+				4B8680851BB6A16600D4FF3B /* DPBaseNotificationRegistry.m in Sources */,
+				4B8680611BB68D2E00D4FF3B /* DPImageUtilities.m in Sources */,
 				4B867FED1BB651DE00D4FF3B /* main.m in Sources */,
+				4B86809A1BB6A71A00D4FF3B /* DPTreasureController.m in Sources */,
+				4B8680711BB69B5100D4FF3B /* DPTreasurePresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +788,10 @@
 				);
 				INFOPLIST_FILE = "HackGT2015-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -602,6 +808,10 @@
 				);
 				INFOPLIST_FILE = "HackGT2015-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

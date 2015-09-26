@@ -6,8 +6,11 @@
 //  Copyright © 2015 ZkHaider. All rights reserved.
 //
 
-#import "AppDelegate.h"
 #import <Parse/Parse.h>
+#import <ParseFacebookUtilsV4/ParseFacebookUtilsV4.h>
+#import <FBSDKCoreKit/FBSDKApplicationDelegate.h>
+#import <FBSDKCoreKit/FBSDKAppEvents.h>
+#import "AppDelegate.h"
 
 @interface AppDelegate ()
 
@@ -15,14 +18,23 @@
 
 @implementation AppDelegate
 
+# pragma mark - AppDelegate Methods
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    // Go ahead and startEventProcessing...
+    [self startEventProcessing];
+    
     // Set the Parse Application with Parse Application ID
     [Parse setApplicationId:@"WDxhZjVJSBXeBudlLDLU5RutPQnNU1gifhcD4Zuq"
                   clientKey:@"8kg3SvqXKnnfo0PqabwLdv8Nv0iCOgEJ564qlknN"];
+    // Init facebook login utils
+    [PFFacebookUtils initializeFacebookWithApplicationLaunchOptions:launchOptions];
     
+    // Configure delegate
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                    didFinishLaunchingWithOptions:launchOptions];
     
     return YES;
 }
@@ -43,10 +55,34 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBSDKAppEvents activateApp];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
+    [self stopEventProcessing];
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [[FBSDKApplicationDelegate  sharedInstance]
+                                       application:application
+                                       openURL:url
+                                       sourceApplication:sourceApplication
+                                       annotation:annotation];
+}
+
+# pragma startEventProcessing
+
+- (void)startEventProcessing {
+    _registry = [[DPBaseNotificationRegistry alloc] init];
+    [_registry registerDefaultSubscribers];
+}
+
+# pragma stopEventProcessing
+
+- (void)stopEventProcessing {
+    [_registry unregisterDefaultSubscribers];
+    _registry = nil;
 }
 
 @end
