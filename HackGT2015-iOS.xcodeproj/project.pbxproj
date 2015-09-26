@@ -34,6 +34,7 @@
 		4B8680431BB655EE00D4FF3B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */; };
 		4B8680461BB6569F00D4FF3B /* DPSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4B8680481BB659FA00D4FF3B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4B8680471BB659FA00D4FF3B /* .gitignore */; settings = {ASSET_TAGS = (); }; };
+		4B86804A1BB66FD900D4FF3B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680491BB66FD900D4FF3B /* ParseFacebookUtils.framework */; settings = {ASSET_TAGS = (); }; };
 		9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1511421A1F72493F795525AA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +94,7 @@
 		4B8680441BB6569F00D4FF3B /* DPSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSignUpViewController.h; sourceTree = "<group>"; };
 		4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSignUpViewController.m; sourceTree = "<group>"; };
 		4B8680471BB659FA00D4FF3B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4B8680491BB66FD900D4FF3B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		787BA12EAA8B17D0DF2BA31A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C05914DE9225BAF004FE7C70 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 			files = (
 				4B8680431BB655EE00D4FF3B /* libsqlite3.tbd in Frameworks */,
 				4B8680411BB655E800D4FF3B /* libz.tbd in Frameworks */,
+				4B86804A1BB66FD900D4FF3B /* ParseFacebookUtils.framework in Frameworks */,
 				4B86803F1BB655E200D4FF3B /* SystemConfiguration.framework in Frameworks */,
 				4B86803D1BB655DC00D4FF3B /* StoreKit.framework in Frameworks */,
 				4B86803B1BB655D600D4FF3B /* Social.framework in Frameworks */,
@@ -162,6 +165,7 @@
 				4B8680471BB659FA00D4FF3B /* .gitignore */,
 				4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */,
 				4B8680401BB655E800D4FF3B /* libz.tbd */,
+				4B8680491BB66FD900D4FF3B /* ParseFacebookUtils.framework */,
 				4B86803E1BB655E200D4FF3B /* SystemConfiguration.framework */,
 				4B86803C1BB655DC00D4FF3B /* StoreKit.framework */,
 				4B86803A1BB655D600D4FF3B /* Social.framework */,

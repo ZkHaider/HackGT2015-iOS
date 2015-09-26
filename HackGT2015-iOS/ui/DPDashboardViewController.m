@@ -36,7 +36,7 @@ static NSString *kCellId = @"memoryCellId";
     self.collectionView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
-    self.collectionView.backgroundColor = [UIColor whiteColor];
+    self.collectionView.backgroundColor = [UIColor blackColor];
     
     [self.collectionView registerClass:[MPSkewedCell class] forCellWithReuseIdentifier:kCellId];
     [self.view addSubview:self.collectionView];
@@ -48,6 +48,8 @@ static NSString *kCellId = @"memoryCellId";
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    [self checkIfLoggedIn];
+    [PFUser logOut];
     [self checkIfLoggedIn];
 }
 
@@ -87,32 +89,9 @@ static NSString *kCellId = @"memoryCellId";
         
         // Present login view controller
         [self presentViewController:loginViewController animated:YES completion:nil];
+    } else {
+        NSLog(@"%@", [PFUser currentUser]);
     }
-}
-
-- (NSString *)titleForIndex:(NSInteger)index {
-    NSString *text = nil;
-    switch (index - 1) {
-        case 0:
-            text = @"DESERT\n hot";
-            break;
-        case 1:
-            text = @"MOUNTAIN\n cold";
-            break;
-        case 2:
-            text = @"BLAH\n warm";
-            break;
-        case 3:
-            text = @"SUNSET\n red";
-            break;
-        case 4:
-            text = @"AJACCIO\n beach";
-            break;
-        default:
-            break;
-    }
-    
-    return text;
 }
 
 #pragma mark - UICollectionViewDataSource
@@ -122,10 +101,9 @@ static NSString *kCellId = @"memoryCellId";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSInteger index = indexPath.item % 5 + 1;
     MPSkewedCell* cell = (MPSkewedCell *)[collectionView dequeueReusableCellWithReuseIdentifier:kCellId forIndexPath:indexPath];
-    cell.image = [UIImage imageNamed:[NSString stringWithFormat:@"%zd", index]];
-    cell.text = [self titleForIndex:index];
+    cell.image = [UIImage imageNamed:@"smallerTreasure"];
+    cell.text = @"You found treasure!";
     
     return cell;
 }
