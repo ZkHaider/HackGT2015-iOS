@@ -15,6 +15,25 @@
 		4B867FFB1BB651DE00D4FF3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B867FF91BB651DE00D4FF3B /* LaunchScreen.storyboard */; };
 		4B8680061BB651DE00D4FF3B /* HackGT2015_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680051BB651DE00D4FF3B /* HackGT2015_iOSTests.m */; };
 		4B8680111BB651DE00D4FF3B /* HackGT2015_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680101BB651DE00D4FF3B /* HackGT2015_iOSUITests.m */; };
+		4B8680231BB6533400D4FF3B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680201BB6533400D4FF3B /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		4B8680241BB6533400D4FF3B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680211BB6533400D4FF3B /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		4B8680251BB6533400D4FF3B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680221BB6533400D4FF3B /* ParseUI.framework */; settings = {ASSET_TAGS = (); }; };
+		4B8680271BB6534100D4FF3B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680261BB6534100D4FF3B /* MapKit.framework */; };
+		4B86802B1BB654E600D4FF3B /* DPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B86802A1BB654E600D4FF3B /* DPLoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4B86802D1BB655AB00D4FF3B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86802C1BB655AB00D4FF3B /* Accounts.framework */; };
+		4B86802F1BB655B000D4FF3B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86802E1BB655B000D4FF3B /* AudioToolbox.framework */; };
+		4B8680311BB655B700D4FF3B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680301BB655B700D4FF3B /* CFNetwork.framework */; };
+		4B8680331BB655BE00D4FF3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680321BB655BE00D4FF3B /* CoreGraphics.framework */; };
+		4B8680351BB655C400D4FF3B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680341BB655C400D4FF3B /* CoreLocation.framework */; };
+		4B8680371BB655CA00D4FF3B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680361BB655CA00D4FF3B /* QuartzCore.framework */; };
+		4B8680391BB655CF00D4FF3B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680381BB655CF00D4FF3B /* Security.framework */; };
+		4B86803B1BB655D600D4FF3B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86803A1BB655D600D4FF3B /* Social.framework */; };
+		4B86803D1BB655DC00D4FF3B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86803C1BB655DC00D4FF3B /* StoreKit.framework */; };
+		4B86803F1BB655E200D4FF3B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86803E1BB655E200D4FF3B /* SystemConfiguration.framework */; };
+		4B8680411BB655E800D4FF3B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680401BB655E800D4FF3B /* libz.tbd */; };
+		4B8680431BB655EE00D4FF3B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */; };
+		4B8680461BB6569F00D4FF3B /* DPSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1511421A1F72493F795525AA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1511421A1F72493F795525AA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B867FE81BB651DE00D4FF3B /* HackGT2015-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackGT2015-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B867FEC1BB651DE00D4FF3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B867FEE1BB651DE00D4FF3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,28 @@
 		4B86800C1BB651DE00D4FF3B /* HackGT2015-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackGT2015-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8680101BB651DE00D4FF3B /* HackGT2015_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackGT2015_iOSUITests.m; sourceTree = "<group>"; };
 		4B8680121BB651DE00D4FF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8680201BB6533400D4FF3B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4B8680211BB6533400D4FF3B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		4B8680221BB6533400D4FF3B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		4B8680261BB6534100D4FF3B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4B8680291BB654E600D4FF3B /* DPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLoginViewController.h; sourceTree = "<group>"; };
+		4B86802A1BB654E600D4FF3B /* DPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLoginViewController.m; sourceTree = "<group>"; };
+		4B86802C1BB655AB00D4FF3B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4B86802E1BB655B000D4FF3B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4B8680301BB655B700D4FF3B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4B8680321BB655BE00D4FF3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B8680341BB655C400D4FF3B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4B8680361BB655CA00D4FF3B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4B8680381BB655CF00D4FF3B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4B86803A1BB655D600D4FF3B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4B86803C1BB655DC00D4FF3B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4B86803E1BB655E200D4FF3B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4B8680401BB655E800D4FF3B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4B8680441BB6569F00D4FF3B /* DPSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSignUpViewController.h; sourceTree = "<group>"; };
+		4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSignUpViewController.m; sourceTree = "<group>"; };
+		787BA12EAA8B17D0DF2BA31A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C05914DE9225BAF004FE7C70 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8680431BB655EE00D4FF3B /* libsqlite3.tbd in Frameworks */,
+				4B8680411BB655E800D4FF3B /* libz.tbd in Frameworks */,
+				4B86803F1BB655E200D4FF3B /* SystemConfiguration.framework in Frameworks */,
+				4B86803D1BB655DC00D4FF3B /* StoreKit.framework in Frameworks */,
+				4B86803B1BB655D600D4FF3B /* Social.framework in Frameworks */,
+				4B8680391BB655CF00D4FF3B /* Security.framework in Frameworks */,
+				4B8680371BB655CA00D4FF3B /* QuartzCore.framework in Frameworks */,
+				4B8680351BB655C400D4FF3B /* CoreLocation.framework in Frameworks */,
+				4B8680331BB655BE00D4FF3B /* CoreGraphics.framework in Frameworks */,
+				4B8680311BB655B700D4FF3B /* CFNetwork.framework in Frameworks */,
+				4B86802F1BB655B000D4FF3B /* AudioToolbox.framework in Frameworks */,
+				4B86802D1BB655AB00D4FF3B /* Accounts.framework in Frameworks */,
+				4B8680251BB6533400D4FF3B /* ParseUI.framework in Frameworks */,
+				4B8680241BB6533400D4FF3B /* Parse.framework in Frameworks */,
+				4B8680271BB6534100D4FF3B /* MapKit.framework in Frameworks */,
+				4B8680231BB6533400D4FF3B /* Bolts.framework in Frameworks */,
+				9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +137,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43306893D654378B15025A9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				787BA12EAA8B17D0DF2BA31A /* Pods.debug.xcconfig */,
+				C05914DE9225BAF004FE7C70 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45AAC47A9E8EA5C0C4AF18F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1511421A1F72493F795525AA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B867FDF1BB651DE00D4FF3B = {
 			isa = PBXGroup;
 			children = (
+				4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */,
+				4B8680401BB655E800D4FF3B /* libz.tbd */,
+				4B86803E1BB655E200D4FF3B /* SystemConfiguration.framework */,
+				4B86803C1BB655DC00D4FF3B /* StoreKit.framework */,
+				4B86803A1BB655D600D4FF3B /* Social.framework */,
+				4B8680381BB655CF00D4FF3B /* Security.framework */,
+				4B8680361BB655CA00D4FF3B /* QuartzCore.framework */,
+				4B8680341BB655C400D4FF3B /* CoreLocation.framework */,
+				4B8680321BB655BE00D4FF3B /* CoreGraphics.framework */,
+				4B8680301BB655B700D4FF3B /* CFNetwork.framework */,
+				4B86802E1BB655B000D4FF3B /* AudioToolbox.framework */,
+				4B86802C1BB655AB00D4FF3B /* Accounts.framework */,
+				4B8680261BB6534100D4FF3B /* MapKit.framework */,
+				4B8680201BB6533400D4FF3B /* Bolts.framework */,
+				4B8680211BB6533400D4FF3B /* Parse.framework */,
+				4B8680221BB6533400D4FF3B /* ParseUI.framework */,
 				4B867FEA1BB651DE00D4FF3B /* HackGT2015-iOS */,
 				4B8680041BB651DE00D4FF3B /* HackGT2015-iOSTests */,
 				4B86800F1BB651DE00D4FF3B /* HackGT2015-iOSUITests */,
 				4B867FE91BB651DE00D4FF3B /* Products */,
+				43306893D654378B15025A9F /* Pods */,
+				45AAC47A9E8EA5C0C4AF18F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +195,9 @@
 		4B867FEA1BB651DE00D4FF3B /* HackGT2015-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4B867FEE1BB651DE00D4FF3B /* AppDelegate.h */,
-				4B867FEF1BB651DE00D4FF3B /* AppDelegate.m */,
-				4B867FF11BB651DE00D4FF3B /* ViewController.h */,
-				4B867FF21BB651DE00D4FF3B /* ViewController.m */,
+				4B86801F1BB6529000D4FF3B /* application */,
+				4B86801E1BB6528800D4FF3B /* parse */,
+				4B8680281BB6545900D4FF3B /* ui */,
 				4B867FF41BB651DE00D4FF3B /* Main.storyboard */,
 				4B867FF71BB651DE00D4FF3B /* Assets.xcassets */,
 				4B867FF91BB651DE00D4FF3B /* LaunchScreen.storyboard */,
@@ -140,6 +233,35 @@
 			path = "HackGT2015-iOSUITests";
 			sourceTree = "<group>";
 		};
+		4B86801E1BB6528800D4FF3B /* parse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = parse;
+			sourceTree = "<group>";
+		};
+		4B86801F1BB6529000D4FF3B /* application */ = {
+			isa = PBXGroup;
+			children = (
+				4B867FEE1BB651DE00D4FF3B /* AppDelegate.h */,
+				4B867FEF1BB651DE00D4FF3B /* AppDelegate.m */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		4B8680281BB6545900D4FF3B /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				4B867FF11BB651DE00D4FF3B /* ViewController.h */,
+				4B867FF21BB651DE00D4FF3B /* ViewController.m */,
+				4B8680291BB654E600D4FF3B /* DPLoginViewController.h */,
+				4B86802A1BB654E600D4FF3B /* DPLoginViewController.m */,
+				4B8680441BB6569F00D4FF3B /* DPSignUpViewController.h */,
+				4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B8680151BB651DE00D4FF3B /* Build configuration list for PBXNativeTarget "HackGT2015-iOS" */;
 			buildPhases = (
+				FAABA098D1E11CBB7657BEE9 /* Check Pods Manifest.lock */,
 				4B867FE41BB651DE00D4FF3B /* Sources */,
 				4B867FE51BB651DE00D4FF3B /* Frameworks */,
 				4B867FE61BB651DE00D4FF3B /* Resources */,
+				DAA6CFB59868D5500CCD7D33 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +331,11 @@
 				TargetAttributes = {
 					4B867FE71BB651DE00D4FF3B = {
 						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					4B8680001BB651DE00D4FF3B = {
 						CreatedOnToolsVersion = 7.0;
@@ -265,13 +394,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DAA6CFB59868D5500CCD7D33 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAABA098D1E11CBB7657BEE9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B867FE41BB651DE00D4FF3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8680461BB6569F00D4FF3B /* DPSignUpViewController.m in Sources */,
 				4B867FF31BB651DE00D4FF3B /* ViewController.m in Sources */,
 				4B867FF01BB651DE00D4FF3B /* AppDelegate.m in Sources */,
+				4B86802B1BB654E600D4FF3B /* DPLoginViewController.m in Sources */,
 				4B867FED1BB651DE00D4FF3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,8 +573,13 @@
 		};
 		4B8680161BB651DE00D4FF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787BA12EAA8B17D0DF2BA31A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "HackGT2015-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOS";
@@ -420,8 +589,13 @@
 		};
 		4B8680171BB651DE00D4FF3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05914DE9225BAF004FE7C70 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "HackGT2015-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOS";
@@ -496,6 +670,7 @@
 				4B8680171BB651DE00D4FF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B8680181BB651DE00D4FF3B /* Build configuration list for PBXNativeTarget "HackGT2015-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +679,7 @@
 				4B86801A1BB651DE00D4FF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B86801B1BB651DE00D4FF3B /* Build configuration list for PBXNativeTarget "HackGT2015-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +688,7 @@
 				4B86801D1BB651DE00D4FF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
