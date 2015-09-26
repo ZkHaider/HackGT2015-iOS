@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B867FED1BB651DE00D4FF3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B867FEC1BB651DE00D4FF3B /* main.m */; };
+		4B867FF01BB651DE00D4FF3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B867FEF1BB651DE00D4FF3B /* AppDelegate.m */; };
+		4B867FF31BB651DE00D4FF3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B867FF21BB651DE00D4FF3B /* ViewController.m */; };
+		4B867FF61BB651DE00D4FF3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B867FF41BB651DE00D4FF3B /* Main.storyboard */; };
+		4B867FF81BB651DE00D4FF3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B867FF71BB651DE00D4FF3B /* Assets.xcassets */; };
+		4B867FFB1BB651DE00D4FF3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B867FF91BB651DE00D4FF3B /* LaunchScreen.storyboard */; };
+		4B8680061BB651DE00D4FF3B /* HackGT2015_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680051BB651DE00D4FF3B /* HackGT2015_iOSTests.m */; };
+		4B8680111BB651DE00D4FF3B /* HackGT2015_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680101BB651DE00D4FF3B /* HackGT2015_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8680021BB651DE00D4FF3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B867FE01BB651DE00D4FF3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B867FE71BB651DE00D4FF3B;
+			remoteInfo = "HackGT2015-iOS";
+		};
+		4B86800D1BB651DE00D4FF3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B867FE01BB651DE00D4FF3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B867FE71BB651DE00D4FF3B;
+			remoteInfo = "HackGT2015-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B867FE81BB651DE00D4FF3B /* HackGT2015-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackGT2015-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B867FEC1BB651DE00D4FF3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B867FEE1BB651DE00D4FF3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B867FEF1BB651DE00D4FF3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B867FF11BB651DE00D4FF3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B867FF21BB651DE00D4FF3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B867FF51BB651DE00D4FF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B867FF71BB651DE00D4FF3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B867FFA1BB651DE00D4FF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B867FFC1BB651DE00D4FF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8680011BB651DE00D4FF3B /* HackGT2015-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackGT2015-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8680051BB651DE00D4FF3B /* HackGT2015_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackGT2015_iOSTests.m; sourceTree = "<group>"; };
+		4B8680071BB651DE00D4FF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B86800C1BB651DE00D4FF3B /* HackGT2015-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackGT2015-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8680101BB651DE00D4FF3B /* HackGT2015_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackGT2015_iOSUITests.m; sourceTree = "<group>"; };
+		4B8680121BB651DE00D4FF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B867FE51BB651DE00D4FF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B867FFE1BB651DE00D4FF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8680091BB651DE00D4FF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B867FDF1BB651DE00D4FF3B = {
+			isa = PBXGroup;
+			children = (
+				4B867FEA1BB651DE00D4FF3B /* HackGT2015-iOS */,
+				4B8680041BB651DE00D4FF3B /* HackGT2015-iOSTests */,
+				4B86800F1BB651DE00D4FF3B /* HackGT2015-iOSUITests */,
+				4B867FE91BB651DE00D4FF3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B867FE91BB651DE00D4FF3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B867FE81BB651DE00D4FF3B /* HackGT2015-iOS.app */,
+				4B8680011BB651DE00D4FF3B /* HackGT2015-iOSTests.xctest */,
+				4B86800C1BB651DE00D4FF3B /* HackGT2015-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B867FEA1BB651DE00D4FF3B /* HackGT2015-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B867FEE1BB651DE00D4FF3B /* AppDelegate.h */,
+				4B867FEF1BB651DE00D4FF3B /* AppDelegate.m */,
+				4B867FF11BB651DE00D4FF3B /* ViewController.h */,
+				4B867FF21BB651DE00D4FF3B /* ViewController.m */,
+				4B867FF41BB651DE00D4FF3B /* Main.storyboard */,
+				4B867FF71BB651DE00D4FF3B /* Assets.xcassets */,
+				4B867FF91BB651DE00D4FF3B /* LaunchScreen.storyboard */,
+				4B867FFC1BB651DE00D4FF3B /* Info.plist */,
+				4B867FEB1BB651DE00D4FF3B /* Supporting Files */,
+			);
+			path = "HackGT2015-iOS";
+			sourceTree = "<group>";
+		};
+		4B867FEB1BB651DE00D4FF3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B867FEC1BB651DE00D4FF3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B8680041BB651DE00D4FF3B /* HackGT2015-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680051BB651DE00D4FF3B /* HackGT2015_iOSTests.m */,
+				4B8680071BB651DE00D4FF3B /* Info.plist */,
+			);
+			path = "HackGT2015-iOSTests";
+			sourceTree = "<group>";
+		};
+		4B86800F1BB651DE00D4FF3B /* HackGT2015-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680101BB651DE00D4FF3B /* HackGT2015_iOSUITests.m */,
+				4B8680121BB651DE00D4FF3B /* Info.plist */,
+			);
+			path = "HackGT2015-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B867FE71BB651DE00D4FF3B /* HackGT2015-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8680151BB651DE00D4FF3B /* Build configuration list for PBXNativeTarget "HackGT2015-iOS" */;
+			buildPhases = (
+				4B867FE41BB651DE00D4FF3B /* Sources */,
+				4B867FE51BB651DE00D4FF3B /* Frameworks */,
+				4B867FE61BB651DE00D4FF3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HackGT2015-iOS";
+			productName = "HackGT2015-iOS";
+			productReference = 4B867FE81BB651DE00D4FF3B /* HackGT2015-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8680001BB651DE00D4FF3B /* HackGT2015-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8680181BB651DE00D4FF3B /* Build configuration list for PBXNativeTarget "HackGT2015-iOSTests" */;
+			buildPhases = (
+				4B867FFD1BB651DE00D4FF3B /* Sources */,
+				4B867FFE1BB651DE00D4FF3B /* Frameworks */,
+				4B867FFF1BB651DE00D4FF3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8680031BB651DE00D4FF3B /* PBXTargetDependency */,
+			);
+			name = "HackGT2015-iOSTests";
+			productName = "HackGT2015-iOSTests";
+			productReference = 4B8680011BB651DE00D4FF3B /* HackGT2015-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B86800B1BB651DE00D4FF3B /* HackGT2015-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B86801B1BB651DE00D4FF3B /* Build configuration list for PBXNativeTarget "HackGT2015-iOSUITests" */;
+			buildPhases = (
+				4B8680081BB651DE00D4FF3B /* Sources */,
+				4B8680091BB651DE00D4FF3B /* Frameworks */,
+				4B86800A1BB651DE00D4FF3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B86800E1BB651DE00D4FF3B /* PBXTargetDependency */,
+			);
+			name = "HackGT2015-iOSUITests";
+			productName = "HackGT2015-iOSUITests";
+			productReference = 4B86800C1BB651DE00D4FF3B /* HackGT2015-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B867FE01BB651DE00D4FF3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ZkHaider;
+				TargetAttributes = {
+					4B867FE71BB651DE00D4FF3B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4B8680001BB651DE00D4FF3B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4B867FE71BB651DE00D4FF3B;
+					};
+					4B86800B1BB651DE00D4FF3B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4B867FE71BB651DE00D4FF3B;
+					};
+				};
+			};
+			buildConfigurationList = 4B867FE31BB651DE00D4FF3B /* Build configuration list for PBXProject "HackGT2015-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B867FDF1BB651DE00D4FF3B;
+			productRefGroup = 4B867FE91BB651DE00D4FF3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B867FE71BB651DE00D4FF3B /* HackGT2015-iOS */,
+				4B8680001BB651DE00D4FF3B /* HackGT2015-iOSTests */,
+				4B86800B1BB651DE00D4FF3B /* HackGT2015-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B867FE61BB651DE00D4FF3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B867FFB1BB651DE00D4FF3B /* LaunchScreen.storyboard in Resources */,
+				4B867FF81BB651DE00D4FF3B /* Assets.xcassets in Resources */,
+				4B867FF61BB651DE00D4FF3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B867FFF1BB651DE00D4FF3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B86800A1BB651DE00D4FF3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B867FE41BB651DE00D4FF3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B867FF31BB651DE00D4FF3B /* ViewController.m in Sources */,
+				4B867FF01BB651DE00D4FF3B /* AppDelegate.m in Sources */,
+				4B867FED1BB651DE00D4FF3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B867FFD1BB651DE00D4FF3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8680061BB651DE00D4FF3B /* HackGT2015_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8680081BB651DE00D4FF3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8680111BB651DE00D4FF3B /* HackGT2015_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8680031BB651DE00D4FF3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B867FE71BB651DE00D4FF3B /* HackGT2015-iOS */;
+			targetProxy = 4B8680021BB651DE00D4FF3B /* PBXContainerItemProxy */;
+		};
+		4B86800E1BB651DE00D4FF3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B867FE71BB651DE00D4FF3B /* HackGT2015-iOS */;
+			targetProxy = 4B86800D1BB651DE00D4FF3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B867FF41BB651DE00D4FF3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B867FF51BB651DE00D4FF3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B867FF91BB651DE00D4FF3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B867FFA1BB651DE00D4FF3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8680131BB651DE00D4FF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B8680141BB651DE00D4FF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8680161BB651DE00D4FF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HackGT2015-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B8680171BB651DE00D4FF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HackGT2015-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B8680191BB651DE00D4FF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HackGT2015-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackGT2015-iOS.app/HackGT2015-iOS";
+			};
+			name = Debug;
+		};
+		4B86801A1BB651DE00D4FF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HackGT2015-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackGT2015-iOS.app/HackGT2015-iOS";
+			};
+			name = Release;
+		};
+		4B86801C1BB651DE00D4FF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HackGT2015-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HackGT2015-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4B86801D1BB651DE00D4FF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HackGT2015-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HackGT2015-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B867FE31BB651DE00D4FF3B /* Build configuration list for PBXProject "HackGT2015-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8680131BB651DE00D4FF3B /* Debug */,
+				4B8680141BB651DE00D4FF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8680151BB651DE00D4FF3B /* Build configuration list for PBXNativeTarget "HackGT2015-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8680161BB651DE00D4FF3B /* Debug */,
+				4B8680171BB651DE00D4FF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B8680181BB651DE00D4FF3B /* Build configuration list for PBXNativeTarget "HackGT2015-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8680191BB651DE00D4FF3B /* Debug */,
+				4B86801A1BB651DE00D4FF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B86801B1BB651DE00D4FF3B /* Build configuration list for PBXNativeTarget "HackGT2015-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B86801C1BB651DE00D4FF3B /* Debug */,
+				4B86801D1BB651DE00D4FF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B867FE01BB651DE00D4FF3B /* Project object */;
+}
