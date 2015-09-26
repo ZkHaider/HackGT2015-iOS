@@ -20,7 +20,9 @@ static NSString *kCellId = @"memoryCellId";
 @interface DPDashboardViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) DPTreasurePresenter *treasurePresenter;
+@property (nonatomic, strong) NSMutableArray *treasures;
 @property (nonatomic, strong) UICollectionView *collectionView;
+@property (nonatomic, strong) UIRefreshControl *refreshControl;
 
 @end
 
@@ -77,17 +79,17 @@ static NSString *kCellId = @"memoryCellId";
 # pragma mark - setupRefreshControl 
 
 - (void)setupRefreshControl {
-    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
-    refreshControl.tintColor = [UIColor cyanColor];
-    [refreshControl addTarget:self action:@selector(refreshControlAction) forControlEvents:UIControlEventValueChanged];
-    [self.collectionView addSubview:refreshControl];
+    _refreshControl = [[UIRefreshControl alloc] init];
+    _refreshControl.tintColor = [UIColor cyanColor];
+    [_refreshControl addTarget:self action:@selector(refreshControlAction) forControlEvents:UIControlEventValueChanged];
+    [self.collectionView addSubview:_refreshControl];
     self.collectionView.alwaysBounceVertical = YES;
 }
 
 # pragma mark - refreshControlAction
 
 - (void)refreshControlAction {
-    NSLog(@"user refreshed");
+    [_treasurePresenter loadNearbyTreasures];
 }
 
 # pragma mark - viewDidLayoutSubviews
@@ -129,9 +131,17 @@ static NSString *kCellId = @"memoryCellId";
 
 - (void)setupTreasurePresenter {
     if (!_treasurePresenter) {
-        _treasurePresenter = [[DPTreasurePresenter alloc] init];
+        _treasurePresenter = [[DPTreasurePresenter alloc] initWithInteractor:self];
         [_treasurePresenter loadNearbyTreasures];
     }
+}
+
+# pragma mark - ITreasureInteractor Methods
+
+- (void)initNearbyTreasures:(NSMutableArray *)treasures {
+    // Add to collectionview and reload data
+    _treasures = [[NSMutableArray alloc] initWithArray:treasures];
+    [self.collectionView reloadData];
 }
 
 # pragma mark - UICollectionViewDataSource
@@ -158,11 +168,7 @@ static NSString *kCellId = @"memoryCellId";
 # pragma mark - Parse Login and Sign Up Delegates
 
 - (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user {
-    
-}
-
-- (BOOL)logInViewController:(PFLogInViewController *)logInController shouldBeginLogInWithUsername:(NSString *)username password:(NSString *)password {
-    return false;
+    NSLog(@"User logged in!");
 }
 
 @end
