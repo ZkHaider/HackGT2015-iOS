@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKCoreKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKLoginKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MPSkewed.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>942B10AEF0395C53006CA2D6BBB79EDC</key>
+		<key>1EE5C28D6FA665299D52B0A61E7D2A88</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E79A16BE9A0E2AD765A91EE89531E8F6</key>
+		<key>950818FDACE9F3E96F5AE78163A2B4BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEF4E1826F28619228EAF6D020BF967E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C274EBE1458B9069F10CA7D1B73600AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF0E7A7545868C561B16162D2463E76B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
