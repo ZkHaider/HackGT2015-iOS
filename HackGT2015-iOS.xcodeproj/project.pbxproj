@@ -38,6 +38,8 @@
 		4B86805B1BB680BF00D4FF3B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680591BB680BF00D4FF3B /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
 		4B86805C1BB680BF00D4FF3B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86805A1BB680BF00D4FF3B /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
 		4B8680611BB68D2E00D4FF3B /* DPImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680601BB68D2E00D4FF3B /* DPImageUtilities.m */; settings = {ASSET_TAGS = (); }; };
+		4B8680631BB6948500D4FF3B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680621BB6948500D4FF3B /* FBSDKShareKit.framework */; settings = {ASSET_TAGS = (); }; };
+		4B8680671BB6996400D4FF3B /* DPTreasureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680661BB6996400D4FF3B /* DPTreasureCell.m */; settings = {ASSET_TAGS = (); }; };
 		9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1511421A1F72493F795525AA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +108,9 @@
 		4B86805A1BB680BF00D4FF3B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		4B86805F1BB68D2E00D4FF3B /* DPImageUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageUtilities.h; sourceTree = "<group>"; };
 		4B8680601BB68D2E00D4FF3B /* DPImageUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageUtilities.m; sourceTree = "<group>"; };
+		4B8680621BB6948500D4FF3B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		4B8680651BB6996400D4FF3B /* DPTreasureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasureCell.h; sourceTree = "<group>"; };
+		4B8680661BB6996400D4FF3B /* DPTreasureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasureCell.m; sourceTree = "<group>"; };
 		787BA12EAA8B17D0DF2BA31A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C05914DE9225BAF004FE7C70 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +137,7 @@
 				4B8680251BB6533400D4FF3B /* ParseUI.framework in Frameworks */,
 				4B8680241BB6533400D4FF3B /* Parse.framework in Frameworks */,
 				4B8680581BB6805800D4FF3B /* ParseFacebookUtilsV4.framework in Frameworks */,
+				4B8680631BB6948500D4FF3B /* FBSDKShareKit.framework in Frameworks */,
 				4B8680271BB6534100D4FF3B /* MapKit.framework in Frameworks */,
 				4B8680231BB6533400D4FF3B /* Bolts.framework in Frameworks */,
 				9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */,
@@ -183,6 +189,7 @@
 				4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */,
 				4B8680401BB655E800D4FF3B /* libz.tbd */,
 				4B8680571BB6805800D4FF3B /* ParseFacebookUtilsV4.framework */,
+				4B8680621BB6948500D4FF3B /* FBSDKShareKit.framework */,
 				4B8680591BB680BF00D4FF3B /* FBSDKCoreKit.framework */,
 				4B86805A1BB680BF00D4FF3B /* FBSDKLoginKit.framework */,
 				4B86803E1BB655E200D4FF3B /* SystemConfiguration.framework */,
@@ -221,6 +228,7 @@
 		4B867FEA1BB651DE00D4FF3B /* HackGT2015-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4B8680681BB69A2C00D4FF3B /* api */,
 				4B86801F1BB6529000D4FF3B /* application */,
 				4B86801E1BB6528800D4FF3B /* parse */,
 				4B8680281BB6545900D4FF3B /* ui */,
@@ -278,6 +286,7 @@
 		4B8680281BB6545900D4FF3B /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				4B8680641BB6994500D4FF3B /* cells */,
 				4B86805E1BB68CFF00D4FF3B /* utils */,
 				4B867FF11BB651DE00D4FF3B /* DPDashboardViewController.h */,
 				4B867FF21BB651DE00D4FF3B /* DPDashboardViewController.m */,
@@ -296,6 +305,30 @@
 				4B8680601BB68D2E00D4FF3B /* DPImageUtilities.m */,
 			);
 			path = utils;
+			sourceTree = "<group>";
+		};
+		4B8680641BB6994500D4FF3B /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680651BB6996400D4FF3B /* DPTreasureCell.h */,
+				4B8680661BB6996400D4FF3B /* DPTreasureCell.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		4B8680681BB69A2C00D4FF3B /* api */ = {
+			isa = PBXGroup;
+			children = (
+				4B8680691BB69A3F00D4FF3B /* entities */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		4B8680691BB69A3F00D4FF3B /* entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,6 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8680671BB6996400D4FF3B /* DPTreasureCell.m in Sources */,
 				4B8680461BB6569F00D4FF3B /* DPSignUpViewController.m in Sources */,
 				4B867FF31BB651DE00D4FF3B /* DPDashboardViewController.m in Sources */,
 				4B867FF01BB651DE00D4FF3B /* AppDelegate.m in Sources */,

@@ -6,13 +6,13 @@
 //  Copyright © 2015 ZkHaider. All rights reserved.
 //
 
+#import <ParseFacebookUtilsV4/ParseFacebookUtilsV4.h>
 #import "DPLoginViewController.h"
 
 @implementation DPLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self setupUI];
 }
 
@@ -33,6 +33,7 @@
 
 - (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user {
     NSLog(@"%@", user);
+    NSLog(@"User logged in");
 }
 
 - (void)logInViewController:(PFLogInViewController *)logInController didFailToLogInWithError:(NSError *)error {

@@ -12,6 +12,7 @@
 #import "DPSignUpViewController.h"
 #import "MPSkewedCell.h"
 #import "MPSkewedParallaxLayout.h"
+#import "DPTreasureCell.h"
 
 static NSString *kCellId = @"memoryCellId";
 
@@ -28,18 +29,8 @@ static NSString *kCellId = @"memoryCellId";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    MPSkewedParallaxLayout *layout = [[MPSkewedParallaxLayout alloc] init];
-    layout.lineSpacing = 2;
-    layout.itemSize = CGSizeMake(CGRectGetWidth(self.view.bounds), 250);
-    
-    self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
-    self.collectionView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
-    self.collectionView.delegate = self;
-    self.collectionView.dataSource = self;
-    self.collectionView.backgroundColor = [UIColor blackColor];
-    
-    [self.collectionView registerClass:[MPSkewedCell class] forCellWithReuseIdentifier:kCellId];
-    [self.view addSubview:self.collectionView];
+    [self setupCollectionView];
+    [self setupRefreshControl];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -48,8 +39,6 @@ static NSString *kCellId = @"memoryCellId";
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self checkIfLoggedIn];
-    [PFUser logOut];
     [self checkIfLoggedIn];
 }
 
@@ -66,11 +55,44 @@ static NSString *kCellId = @"memoryCellId";
     // Dispose of any resources that can be recreated.
 }
 
+# pragma mark - setupCollectionView
+
+- (void)setupCollectionView {
+    MPSkewedParallaxLayout *layout = [[MPSkewedParallaxLayout alloc] init];
+    layout.lineSpacing = 2;
+    layout.itemSize = CGSizeMake(CGRectGetWidth(self.view.bounds), 300);
+    
+    self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+    self.collectionView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+    self.collectionView.delegate = self;
+    self.collectionView.dataSource = self;
+    self.collectionView.backgroundColor = [UIColor blackColor];
+    
+    [self.collectionView registerClass:[DPTreasureCell class] forCellWithReuseIdentifier:kCellId];
+    [self.view addSubview:self.collectionView];
+}
+
+# pragma mark - setupRefreshControl 
+
+- (void)setupRefreshControl {
+    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
+    refreshControl.tintColor = [UIColor cyanColor];
+    [refreshControl addTarget:self action:@selector(refreshControlAction) forControlEvents:UIControlEventValueChanged];
+    [self.collectionView addSubview:refreshControl];
+    self.collectionView.alwaysBounceVertical = YES;
+}
+
+# pragma mark - refreshControlAction
+
+- (void)refreshControlAction {
+    NSLog(@"user refreshed");
+}
+
 # pragma mark - viewDidLayoutSubviews
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    [(MPSkewedParallaxLayout *)self.collectionView.collectionViewLayout setItemSize:CGSizeMake(CGRectGetWidth(self.view.bounds), 250)];
+    [(MPSkewedParallaxLayout *)self.collectionView.collectionViewLayout setItemSize:CGSizeMake(CGRectGetWidth(self.view.bounds), 300)];
 }
 
 # pragma mark - checkIfLoggedIn
@@ -107,7 +129,7 @@ static NSString *kCellId = @"memoryCellId";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    MPSkewedCell* cell = (MPSkewedCell *)[collectionView dequeueReusableCellWithReuseIdentifier:kCellId forIndexPath:indexPath];
+    DPTreasureCell* cell = (DPTreasureCell *)[collectionView dequeueReusableCellWithReuseIdentifier:kCellId forIndexPath:indexPath];
     cell.image = [UIImage imageNamed:@"smallerTreasure"];
     cell.text = @"You found treasure!";
     
@@ -117,9 +139,9 @@ static NSString *kCellId = @"memoryCellId";
 #pragma mark - UICollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"%@ %zd", NSStringFromSelector(_cmd), indexPath.item);
+    DPTreasureCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
+    
 }
-
 
 # pragma mark - Parse Login and Sign Up Delegates
 
