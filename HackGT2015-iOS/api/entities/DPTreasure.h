@@ -16,5 +16,6 @@
 @property (nonatomic, strong) NSMutableArray *user;
 @property (nonatomic, strong) NSString *createdAt;
 @property (nonatomic, strong) NSString *updatedAt;
+@property (nonatomic, strong) NSMutableArray *images;
 
 @end

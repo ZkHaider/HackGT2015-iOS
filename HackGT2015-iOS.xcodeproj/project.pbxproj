@@ -50,6 +50,7 @@
 		4B8680911BB6A42400D4FF3B /* DPLoadTreasures.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680901BB6A42400D4FF3B /* DPLoadTreasures.m */; settings = {ASSET_TAGS = (); }; };
 		4B8680941BB6A42F00D4FF3B /* DPLoadedTreasures.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680931BB6A42F00D4FF3B /* DPLoadedTreasures.m */; settings = {ASSET_TAGS = (); }; };
 		4B8680971BB6A45400D4FF3B /* DPTreasureSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680961BB6A45400D4FF3B /* DPTreasureSubscriber.m */; settings = {ASSET_TAGS = (); }; };
+		4B86809A1BB6A71A00D4FF3B /* DPTreasureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680991BB6A71A00D4FF3B /* DPTreasureController.m */; settings = {ASSET_TAGS = (); }; };
 		9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1511421A1F72493F795525AA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +144,8 @@
 		4B8680931BB6A42F00D4FF3B /* DPLoadedTreasures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLoadedTreasures.m; sourceTree = "<group>"; };
 		4B8680951BB6A45400D4FF3B /* DPTreasureSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasureSubscriber.h; sourceTree = "<group>"; };
 		4B8680961BB6A45400D4FF3B /* DPTreasureSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasureSubscriber.m; sourceTree = "<group>"; };
+		4B8680981BB6A71A00D4FF3B /* DPTreasureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTreasureController.h; sourceTree = "<group>"; };
+		4B8680991BB6A71A00D4FF3B /* DPTreasureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTreasureController.m; sourceTree = "<group>"; };
 		787BA12EAA8B17D0DF2BA31A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C05914DE9225BAF004FE7C70 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -412,6 +415,8 @@
 		4B86806E1BB69B0200D4FF3B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4B8680981BB6A71A00D4FF3B /* DPTreasureController.h */,
+				4B8680991BB6A71A00D4FF3B /* DPTreasureController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -636,6 +641,7 @@
 				4B8680851BB6A16600D4FF3B /* DPBaseNotificationRegistry.m in Sources */,
 				4B8680611BB68D2E00D4FF3B /* DPImageUtilities.m in Sources */,
 				4B867FED1BB651DE00D4FF3B /* main.m in Sources */,
+				4B86809A1BB6A71A00D4FF3B /* DPTreasureController.m in Sources */,
 				4B8680711BB69B5100D4FF3B /* DPTreasurePresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

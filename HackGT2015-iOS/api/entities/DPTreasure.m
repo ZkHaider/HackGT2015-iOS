@@ -20,7 +20,8 @@
              @"location": @"location",
              @"user": @"user",
              @"createdAt": @"createdAt",
-             @"updatedAt": @"updatedAt"
+             @"updatedAt": @"updatedAt",
+             @"images": @"image"
              };
 }
 

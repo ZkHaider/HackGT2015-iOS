@@ -7,6 +7,8 @@
 //
 
 #import "DPTreasurePresenter.h"
+#import "DPLoadTreasures.h"
+#import "Tolo.h"
 
 @implementation DPTreasurePresenter
 
@@ -29,9 +31,8 @@
 
 # pragma mark - loadOrganizationUsers
 
-- (void)loadOrganizationUsers {
-    
+- (void)loadNearbyTreasures {
+    PUBLISH([[DPLoadTreasures alloc] init]);
 }
-
 
 @end

@@ -23,6 +23,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    // Go ahead and startEventProcessing...
+    [self startEventProcessing];
+    
     // Set the Parse Application with Parse Application ID
     [Parse setApplicationId:@"WDxhZjVJSBXeBudlLDLU5RutPQnNU1gifhcD4Zuq"
                   clientKey:@"8kg3SvqXKnnfo0PqabwLdv8Nv0iCOgEJ564qlknN"];
@@ -56,6 +59,7 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
+    [self stopEventProcessing];
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
@@ -65,6 +69,20 @@
                                        openURL:url
                                        sourceApplication:sourceApplication
                                        annotation:annotation];
+}
+
+# pragma startEventProcessing
+
+- (void)startEventProcessing {
+    _registry = [[DPBaseNotificationRegistry alloc] init];
+    [_registry registerDefaultSubscribers];
+}
+
+# pragma stopEventProcessing
+
+- (void)stopEventProcessing {
+    [_registry unregisterDefaultSubscribers];
+    _registry = nil;
 }
 
 @end

@@ -80,5 +80,7 @@
 			</dict>
 		</dict>
 	</dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location to get your current location so you can start hunting for treasure!</string>
 </dict>
 </plist>

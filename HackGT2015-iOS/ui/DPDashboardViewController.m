@@ -132,6 +132,7 @@ static NSString *kCellId = @"memoryCellId";
 - (void)setupTreasurePresenter {
     if (!_treasurePresenter) {
         _treasurePresenter = [[DPTreasurePresenter alloc] initWithInteractor:self];
+        [_treasurePresenter registerOnBus];
         [_treasurePresenter loadNearbyTreasures];
     }
 }
