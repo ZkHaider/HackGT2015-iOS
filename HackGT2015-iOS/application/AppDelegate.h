@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ParseFacebookUtils/PFFacebookUtils.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, FBSDK>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

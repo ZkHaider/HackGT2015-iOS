@@ -34,7 +34,9 @@
 		4B8680431BB655EE00D4FF3B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */; };
 		4B8680461BB6569F00D4FF3B /* DPSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4B8680481BB659FA00D4FF3B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4B8680471BB659FA00D4FF3B /* .gitignore */; settings = {ASSET_TAGS = (); }; };
-		4B86804A1BB66FD900D4FF3B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680491BB66FD900D4FF3B /* ParseFacebookUtils.framework */; settings = {ASSET_TAGS = (); }; };
+		4B8680581BB6805800D4FF3B /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680571BB6805800D4FF3B /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
+		4B86805B1BB680BF00D4FF3B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8680591BB680BF00D4FF3B /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		4B86805C1BB680BF00D4FF3B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B86805A1BB680BF00D4FF3B /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
 		9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1511421A1F72493F795525AA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -94,7 +96,13 @@
 		4B8680441BB6569F00D4FF3B /* DPSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSignUpViewController.h; sourceTree = "<group>"; };
 		4B8680451BB6569F00D4FF3B /* DPSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSignUpViewController.m; sourceTree = "<group>"; };
 		4B8680471BB659FA00D4FF3B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		4B8680491BB66FD900D4FF3B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		4B86804B1BB673BD00D4FF3B /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
+		4B86804C1BB673BD00D4FF3B /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
+		4B86804F1BB6747800D4FF3B /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
+		4B8680501BB6747800D4FF3B /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
+		4B8680571BB6805800D4FF3B /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		4B8680591BB680BF00D4FF3B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4B86805A1BB680BF00D4FF3B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		787BA12EAA8B17D0DF2BA31A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C05914DE9225BAF004FE7C70 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,19 +114,21 @@
 			files = (
 				4B8680431BB655EE00D4FF3B /* libsqlite3.tbd in Frameworks */,
 				4B8680411BB655E800D4FF3B /* libz.tbd in Frameworks */,
-				4B86804A1BB66FD900D4FF3B /* ParseFacebookUtils.framework in Frameworks */,
+				4B86805C1BB680BF00D4FF3B /* FBSDKLoginKit.framework in Frameworks */,
 				4B86803F1BB655E200D4FF3B /* SystemConfiguration.framework in Frameworks */,
 				4B86803D1BB655DC00D4FF3B /* StoreKit.framework in Frameworks */,
 				4B86803B1BB655D600D4FF3B /* Social.framework in Frameworks */,
 				4B8680391BB655CF00D4FF3B /* Security.framework in Frameworks */,
 				4B8680371BB655CA00D4FF3B /* QuartzCore.framework in Frameworks */,
 				4B8680351BB655C400D4FF3B /* CoreLocation.framework in Frameworks */,
+				4B86805B1BB680BF00D4FF3B /* FBSDKCoreKit.framework in Frameworks */,
 				4B8680331BB655BE00D4FF3B /* CoreGraphics.framework in Frameworks */,
 				4B8680311BB655B700D4FF3B /* CFNetwork.framework in Frameworks */,
 				4B86802F1BB655B000D4FF3B /* AudioToolbox.framework in Frameworks */,
 				4B86802D1BB655AB00D4FF3B /* Accounts.framework in Frameworks */,
 				4B8680251BB6533400D4FF3B /* ParseUI.framework in Frameworks */,
 				4B8680241BB6533400D4FF3B /* Parse.framework in Frameworks */,
+				4B8680581BB6805800D4FF3B /* ParseFacebookUtilsV4.framework in Frameworks */,
 				4B8680271BB6534100D4FF3B /* MapKit.framework in Frameworks */,
 				4B8680231BB6533400D4FF3B /* Bolts.framework in Frameworks */,
 				9BC96BA45C28DF9AA84056DD /* libPods.a in Frameworks */,
@@ -154,6 +164,10 @@
 		45AAC47A9E8EA5C0C4AF18F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B86804F1BB6747800D4FF3B /* libFBSDKCoreKit.a */,
+				4B8680501BB6747800D4FF3B /* libFBSDKLoginKit.a */,
+				4B86804B1BB673BD00D4FF3B /* libFBSDKCoreKit.a */,
+				4B86804C1BB673BD00D4FF3B /* libFBSDKLoginKit.a */,
 				1511421A1F72493F795525AA /* libPods.a */,
 			);
 			name = Frameworks;
@@ -165,7 +179,9 @@
 				4B8680471BB659FA00D4FF3B /* .gitignore */,
 				4B8680421BB655EE00D4FF3B /* libsqlite3.tbd */,
 				4B8680401BB655E800D4FF3B /* libz.tbd */,
-				4B8680491BB66FD900D4FF3B /* ParseFacebookUtils.framework */,
+				4B8680571BB6805800D4FF3B /* ParseFacebookUtilsV4.framework */,
+				4B8680591BB680BF00D4FF3B /* FBSDKCoreKit.framework */,
+				4B86805A1BB680BF00D4FF3B /* FBSDKLoginKit.framework */,
 				4B86803E1BB655E200D4FF3B /* SystemConfiguration.framework */,
 				4B86803C1BB655DC00D4FF3B /* StoreKit.framework */,
 				4B86803A1BB655D600D4FF3B /* Social.framework */,
@@ -590,6 +606,10 @@
 				);
 				INFOPLIST_FILE = "HackGT2015-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -606,6 +626,10 @@
 				);
 				INFOPLIST_FILE = "HackGT2015-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zkhaider.HackGT2015-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

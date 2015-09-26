@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2032EAA1086F0D06699180B3"
+               BlueprintIdentifier = "D4876BEC99130C965F673497"
                BuildableName = "libMPSkewed.a"
                BlueprintName = "MPSkewed"
                ReferencedContainer = "container:Pods.xcodeproj">

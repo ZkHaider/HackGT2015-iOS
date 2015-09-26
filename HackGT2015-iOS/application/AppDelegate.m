@@ -6,9 +6,11 @@
 //  Copyright © 2015 ZkHaider. All rights reserved.
 //
 
-#import "AppDelegate.h"
 #import <Parse/Parse.h>
-#import <ParseFacebookUtils/PFFacebookUtils.h>
+#import <ParseFacebookUtilsV4/ParseFacebookUtilsV4.h>
+#import <FBSDKCoreKit/FBSDKApplicationDelegate.h>
+#import <FBSDKCoreKit/FBSDKAppEvents.h>
+#import "AppDelegate.h"
 
 @interface AppDelegate ()
 
@@ -25,8 +27,7 @@
     [Parse setApplicationId:@"WDxhZjVJSBXeBudlLDLU5RutPQnNU1gifhcD4Zuq"
                   clientKey:@"8kg3SvqXKnnfo0PqabwLdv8Nv0iCOgEJ564qlknN"];
     // Init facebook login utils
-    [PFFacebookUtils initializeFacebook];
-    
+    [PFFacebookUtils initializeFacebookWithApplicationLaunchOptions:launchOptions];
     
     return YES;
 }
@@ -47,16 +48,19 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBSDKAppEvents activateApp];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-# pragma mark - ParseFacebookUtils Delegate
-
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    return [[]]
+    return [[FBSDKApplicationDelegate  sharedInstance]
+                                       application:application
+                                       openURL:url
+                                       sourceApplication:sourceApplication
+                                       annotation:annotation];
 }
 
 @end
