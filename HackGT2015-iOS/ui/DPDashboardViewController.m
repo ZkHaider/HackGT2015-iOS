@@ -31,6 +31,8 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     [self checkIfLoggedIn];
+    [PFUser logOut];
+     [self checkIfLoggedIn];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {

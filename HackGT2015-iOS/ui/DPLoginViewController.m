@@ -8,6 +8,7 @@
 
 #import "DPLoginViewController.h"
 
+
 @implementation DPLoginViewController
 
 - (void)viewDidLoad {
@@ -18,10 +19,20 @@
 
 - (void)setupUI {
     
+    UIImageView *uiv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"treasureChest"]];
+   
+    
+    uiv.frame = CGRectMake(100,30,180,180);
+     uiv.frame = uiv.frame;
+    
+    [self.view addSubview:uiv];
+    
+    self.view.backgroundColor = [UIColor blackColor];
+    
     UILabel *label = [[UILabel alloc] init];
-    label.textColor = [UIColor blackColor];
+    label.textColor = [UIColor whiteColor];
     UIFont *font = label.font;
-    label.font = [font fontWithSize:40];
+    label.font = [font fontWithSize:35];
     label.text = @"Drop";
     [label sizeToFit];
     self.logInView.logo = label;
